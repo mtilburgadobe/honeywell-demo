@@ -9,7 +9,7 @@
   padding: 30px 24px 60px;
   min-height: 400px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   background-color: #1a1a2e;
   overflow: hidden;
 }
@@ -24,7 +24,7 @@
   text-transform: uppercase;
   letter-spacing: -0.5px;
   line-height: 1.08;
-  margin: 0 0 8px;
+  margin: 0 0 16px;
   max-width: 600px;
 }
 
@@ -122,6 +122,6 @@
 
   .hero-banner h1,
   .hero-banner-container h1 {
-    font-size: 46px;
+    font-size: 50px;
   }
 }
