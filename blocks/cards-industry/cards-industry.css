@@ -1,0 +1,67 @@
+.cards-industry > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 8px;
+}
+
+.cards-industry > ul > li {
+  flex: 0 0 auto;
+  min-width: 160px;
+  background-color: var(--light-color);
+  border-radius: 8px;
+  padding: 20px 16px;
+  text-align: center;
+  scroll-snap-align: start;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+.cards-industry > ul > li:hover {
+  box-shadow: 0 2px 12px rgb(0 0 0 / 10%);
+  transform: translateY(-2px);
+}
+
+.cards-industry .cards-industry-card-image {
+  line-height: 0;
+  margin-bottom: 12px;
+}
+
+.cards-industry .cards-industry-card-image img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.cards-industry .cards-industry-card-body {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--heading-color);
+}
+
+.cards-industry .cards-industry-card-body a {
+  color: var(--heading-color);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.cards-industry .cards-industry-card-body a:hover {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+@media (width >= 900px) {
+  .cards-industry > ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    overflow-x: visible;
+  }
+}

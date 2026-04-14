@@ -1,0 +1,87 @@
+{
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://www.honeywell.com/us/en"
+      ],
+      "description": "Honeywell US homepage with hero, featured content, product categories, and promotional sections",
+      "blocks": [
+        {
+          "name": "hero-banner",
+          "instances": ["#hero-banner"]
+        },
+        {
+          "name": "cards-megatrend",
+          "instances": [".responsivegrid.bg-transparent.p-15.mt-15"]
+        },
+        {
+          "name": "cards-industry",
+          "instances": [".leftrailwithcontent.left-rail-v2-styles"]
+        },
+        {
+          "name": "cards-news",
+          "instances": [".filtered-list-component.mvp2"]
+        },
+        {
+          "name": "tabs-feature",
+          "instances": [".advancedaccordion-block"]
+        },
+        {
+          "name": "columns-cta",
+          "instances": [".responsivegrid.bg-light-gray.p-15 > .aem-Grid > .responsivegrid.bg-light-gray.p-30"]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-hero",
+          "name": "Hero Banner",
+          "selector": ["#hero-banner", ".section.responsivegrid:has(#hero-banner)"],
+          "style": "dark",
+          "blocks": ["hero-banner"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-megatrends",
+          "name": "Delivering Mega Results on Mega Trends",
+          "selector": [".section.responsivegrid.pt-0.pb-20", ".section.responsivegrid:has(.sectiontitle)"],
+          "style": "light-grey",
+          "blocks": ["cards-megatrend"],
+          "defaultContent": ["h2.section-title", "h6"]
+        },
+        {
+          "id": "section-what-we-do",
+          "name": "What We Do",
+          "selector": [".leftrailwithcontent", ".section.responsivegrid:has(.leftrailwithcontent)"],
+          "style": null,
+          "blocks": ["cards-industry"],
+          "defaultContent": ["h2.section-title"]
+        },
+        {
+          "id": "section-whats-new",
+          "name": "Whats New",
+          "selector": [".filtered-list", ".section.responsivegrid:has(.filtered-list)"],
+          "style": null,
+          "blocks": ["cards-news"],
+          "defaultContent": ["h2.section-title"]
+        },
+        {
+          "id": "section-digitalization",
+          "name": "Industrial Digitalization",
+          "selector": [".advancedaccordion-block", ".section.responsivegrid:has(.advancedaccordion-block)"],
+          "style": null,
+          "blocks": ["tabs-feature"],
+          "defaultContent": ["h2.section-title", "p .text-header5"]
+        },
+        {
+          "id": "section-contact",
+          "name": "Contact CTAs",
+          "selector": [".cmp-call-to-action", ".responsivegrid.bg-light-gray.p-15:has(.cmp-call-to-action)"],
+          "style": "light-grey",
+          "blocks": ["columns-cta"],
+          "defaultContent": []
+        }
+      ]
+    }
+  ]
+}

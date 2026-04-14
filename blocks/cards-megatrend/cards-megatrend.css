@@ -1,0 +1,60 @@
+.cards-megatrend > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+.cards-megatrend > ul > li {
+  background-color: var(--background-color);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: box-shadow 0.2s ease;
+}
+
+.cards-megatrend > ul > li:hover {
+  box-shadow: 0 4px 16px rgb(0 0 0 / 12%);
+}
+
+.cards-megatrend .cards-megatrend-card-image {
+  line-height: 0;
+}
+
+.cards-megatrend > ul > li img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.cards-megatrend .cards-megatrend-card-body {
+  padding: 20px;
+}
+
+.cards-megatrend .cards-megatrend-card-body p {
+  margin: 0 0 8px;
+}
+
+.cards-megatrend .cards-megatrend-card-body a {
+  color: var(--accent-color);
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+
+.cards-megatrend .cards-megatrend-card-body h6 {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-color);
+  line-height: 1.4;
+  margin: 0;
+}
+
+@media (width >= 600px) {
+  .cards-megatrend > ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "variantName": "cards-news",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-04-14T09:12:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.honeywell.com/us/en",
+    "originPage": "corporate homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "news-articles",
+    "imagePattern": "large",
+    "structure": "thumbnail image + headline link"
+  },
+  "contentPattern": {
+    "structure": "thumbnail + h2 headline + link",
+    "buttonCount": 0,
+    "imageCount": 6
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "news article listings",
+      "press release grids",
+      "featured stories sections"
+    ],
+    "notSuitableFor": [
+      "product feature cards",
+      "icon-based navigation",
+      "cards with descriptions"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/us/en/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-04-14T09:12:00.000Z"
+  }
+}

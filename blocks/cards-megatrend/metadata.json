@@ -1,0 +1,40 @@
+{
+  "variantName": "cards-megatrend",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-04-14T09:12:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.honeywell.com/us/en",
+    "originPage": "corporate homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "megatrend-showcase",
+    "imagePattern": "large",
+    "structure": "image + category label + description"
+  },
+  "contentPattern": {
+    "structure": "square image + label link + h6 description",
+    "buttonCount": 0,
+    "imageCount": 3
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "showcase cards with square images",
+      "category/topic cards with labels",
+      "3-column feature highlights"
+    ],
+    "notSuitableFor": [
+      "news article listings",
+      "icon-only navigation cards",
+      "cards without images"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/us/en/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-04-14T09:12:00.000Z"
+  }
+}

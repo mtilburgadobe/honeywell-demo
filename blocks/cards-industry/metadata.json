@@ -1,0 +1,40 @@
+{
+  "variantName": "cards-industry",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-04-14T09:12:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.honeywell.com/us/en",
+    "originPage": "corporate homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "industry-navigation",
+    "imagePattern": "icon",
+    "structure": "icon + label"
+  },
+  "contentPattern": {
+    "structure": "SVG icon + text label + link",
+    "buttonCount": 0,
+    "imageCount": 11
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "industry category navigation",
+      "icon-based category lists",
+      "horizontal scrollable card lists"
+    ],
+    "notSuitableFor": [
+      "image-heavy cards",
+      "news article listings",
+      "feature showcase cards"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/us/en/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-04-14T09:12:00.000Z"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "variantName": "hero-banner",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-04-14T09:12:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.honeywell.com/us/en",
+    "originPage": "corporate homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "homepage-hero",
+    "imagePattern": "large",
+    "structure": "heading + description + CTA"
+  },
+  "contentPattern": {
+    "structure": "h1 + paragraph + CTA button",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "corporate homepages",
+      "landing pages with hero banners",
+      "pages with dark overlay background images"
+    ],
+    "notSuitableFor": [
+      "minimal text-only heroes",
+      "light background heroes",
+      "multi-CTA hero sections"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/us/en/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-04-14T09:12:00.000Z"
+  }
+}

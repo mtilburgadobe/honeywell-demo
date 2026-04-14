@@ -1,0 +1,55 @@
+.columns-cta > div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.columns-cta > div > div {
+  background-color: var(--light-color);
+  border-radius: 8px;
+  padding: 32px;
+  flex: 1;
+}
+
+.columns-cta > div > div p:first-child {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--heading-color);
+  margin: 0 0 8px;
+}
+
+.columns-cta > div > div p:nth-child(2) {
+  font-size: 16px;
+  color: var(--text-color);
+  line-height: 1.5;
+  margin: 0 0 20px;
+}
+
+.columns-cta > div > div a {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 24px;
+  border: 2px solid var(--accent-color);
+  border-radius: 4px;
+  color: var(--accent-color);
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  transition: all 0.2s ease;
+}
+
+.columns-cta > div > div a:hover {
+  background-color: var(--accent-color);
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (width >= 900px) {
+  .columns-cta > div {
+    flex-direction: row;
+  }
+}

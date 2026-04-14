@@ -1,0 +1,40 @@
+{
+  "variantName": "columns-cta",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-04-14T09:12:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.honeywell.com/us/en",
+    "originPage": "corporate homepage",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "contact-cta",
+    "imagePattern": "noimg",
+    "structure": "label + description + CTA link"
+  },
+  "contentPattern": {
+    "structure": "2 columns: bold label + description + action link",
+    "buttonCount": 2,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "contact/support CTA sections",
+      "side-by-side action panels",
+      "dual CTA layouts"
+    ],
+    "notSuitableFor": [
+      "image-heavy column layouts",
+      "multi-column content grids",
+      "text-heavy comparison layouts"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/us/en/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-04-14T09:12:00.000Z"
+  }
+}
