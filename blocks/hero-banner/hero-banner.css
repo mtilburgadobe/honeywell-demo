@@ -27,6 +27,7 @@
 .hero-banner h1,
 .hero-banner-container h1 {
   color: #fff;
+  font-family: 'Arial Black', 'Helvetica Neue', helvetica, arial, sans-serif;
   font-size: 36px;
   font-weight: 900;
   text-transform: uppercase;
