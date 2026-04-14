@@ -116,8 +116,8 @@
 
 @media (width >= 900px) {
   .hero-banner {
-    padding: 30px 32px 60px;
-    min-height: 450px;
+    padding: 20px 32px 60px;
+    min-height: 500px;
   }
 
   .hero-banner h1,
