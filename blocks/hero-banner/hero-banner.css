@@ -36,15 +36,10 @@
   max-width: 500px;
 }
 
-/* First span = Honeywell red, last span = white */
-.hero-banner h1 > span:first-child,
-.hero-banner-container h1 > span:first-child {
+/* Honeywell red accent on first lines of H1 */
+.hero-banner h1 .hero-banner-red {
   color: var(--honeywell-red);
-}
-
-.hero-banner h1 > span:last-child,
-.hero-banner-container h1 > span:last-child {
-  color: #fff;
+  display: block;
 }
 
 .hero-banner p,
