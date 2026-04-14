@@ -36,6 +36,17 @@
   max-width: 500px;
 }
 
+/* First span = Honeywell red, last span = white */
+.hero-banner h1 > span:first-child,
+.hero-banner-container h1 > span:first-child {
+  color: var(--honeywell-red);
+}
+
+.hero-banner h1 > span:last-child,
+.hero-banner-container h1 > span:last-child {
+  color: #fff;
+}
+
 .hero-banner p,
 .hero-banner-container p {
   color: #fff;
