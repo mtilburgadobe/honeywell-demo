@@ -1,3 +1,13 @@
+/* Section-level styles for when EDS auto-blocking moves content out of the block */
+.hero-banner-container {
+  background-color: #1a1a2e;
+}
+
+.hero-banner-container > div {
+  max-width: 1200px;
+  padding: 60px 24px;
+}
+
 .hero-banner-container .hero-banner-wrapper {
   max-width: unset;
   padding: 0;
@@ -13,7 +23,9 @@
   overflow: hidden;
 }
 
-.hero-banner h1 {
+/* H1 inside block or promoted to section by auto-blocking */
+.hero-banner h1,
+.hero-banner-container h1 {
   color: #fff;
   font-size: 36px;
   font-weight: 900;
@@ -24,15 +36,18 @@
   max-width: 500px;
 }
 
-.hero-banner p {
-  color: rgb(255 255 255 / 90%);
-  font-size: 18px;
-  line-height: 1.4;
-  margin: 0 0 24px;
+.hero-banner p,
+.hero-banner-container p {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.18;
+  margin: 10px 0;
   max-width: 500px;
 }
 
-.hero-banner a {
+.hero-banner a,
+.hero-banner-container a:any-link {
   display: inline-flex;
   align-items: center;
   padding: 14px 24px;
@@ -102,16 +117,23 @@
 }
 
 @media (width >= 900px) {
+  .hero-banner-container > div {
+    padding: 80px 32px;
+  }
+
   .hero-banner {
     padding: 80px 32px;
     min-height: 500px;
   }
 
-  .hero-banner h1 {
+  .hero-banner h1,
+  .hero-banner-container h1 {
     font-size: 50px;
   }
 
-  .hero-banner p {
+  .hero-banner p,
+  .hero-banner-container p {
     font-size: 22px;
+    line-height: 1.18;
   }
 }
