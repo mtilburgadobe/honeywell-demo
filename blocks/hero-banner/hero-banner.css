@@ -1,17 +1,11 @@
-/* Section-level styles for when EDS auto-blocking moves content out of the block */
-.hero-banner-container {
-  background-color: #1a1a2e;
-  max-width: 1600px;
-  margin: 0 auto;
-}
-
-.hero-banner-container > div {
-  padding: 60px 24px;
-}
-
+/* Hero wrapper aligns with standard page sections */
 .hero-banner-container .hero-banner-wrapper {
-  max-width: unset;
-  padding: 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  background-color: #1a1a2e;
+  overflow: hidden;
+  border-radius: 8px;
 }
 
 .hero-banner {
@@ -20,7 +14,6 @@
   min-height: 400px;
   display: flex;
   align-items: center;
-  background-color: #1a1a2e;
   overflow: hidden;
 }
 
@@ -119,14 +112,12 @@
 .hero-banner > div:not(.hero-banner-bg) {
   position: relative;
   z-index: 2;
-  max-width: 1200px;
-  margin: 0 auto;
   width: 100%;
 }
 
 @media (width >= 900px) {
-  .hero-banner-container > div {
-    padding: 80px 32px;
+  .hero-banner-container .hero-banner-wrapper {
+    padding: 0 32px;
   }
 
   .hero-banner {
@@ -137,11 +128,5 @@
   .hero-banner h1,
   .hero-banner-container h1 {
     font-size: 50px;
-  }
-
-  .hero-banner p,
-  .hero-banner-container p {
-    font-size: 22px;
-    line-height: 1.18;
   }
 }
