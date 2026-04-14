@@ -24,7 +24,7 @@
   text-transform: uppercase;
   letter-spacing: -0.5px;
   line-height: 1.08;
-  margin: 0 0 16px;
+  margin: 0 0 8px;
   max-width: 600px;
 }
 
@@ -116,12 +116,12 @@
 
 @media (width >= 900px) {
   .hero-banner {
-    padding: 20px 32px 60px;
+    padding: 30px 32px 60px;
     min-height: 500px;
   }
 
   .hero-banner h1,
   .hero-banner-container h1 {
-    font-size: 50px;
+    font-size: 46px;
   }
 }
