@@ -1,9 +1,8 @@
 export default function decorate(block) {
   const firstRow = block.querySelector(':scope > div:first-child');
-  const img = firstRow?.querySelector('picture, img');
+  const pic = firstRow?.querySelector('picture, img');
 
-  if (img) {
-    // Mark the first row as the background image container
+  if (pic) {
     firstRow.classList.add('hero-banner-bg');
   } else {
     block.classList.add('no-image');
